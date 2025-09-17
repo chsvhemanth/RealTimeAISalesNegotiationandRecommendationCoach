@@ -1,8 +1,3 @@
-Perfect 👍 I’ll merge everything — description, features, setup, usage, roadmap, etc. — into a **single polished `README.md` file**. You can drop this directly into your repo root.
-
-Here’s the complete file:
-
-```markdown
 # Real-Time AI Sales Negotiation and Recommendation Coach
 
 This project is a **prototype AI-powered assistant** designed to help sales professionals improve their negotiation skills and client interactions.  
@@ -28,22 +23,20 @@ It leverages **speech recognition, summarization, and recommendation systems** t
 
 ## 📂 Repository Structure
 
-```
-
-.
-├── speech.py                  # Captures and transcribes speech/audio
-├── controller.py              # Main workflow manager
-├── groq\_integration2.py       # Groq inference integration (optional)
-├── google\_sheets\_util.py      # Google Sheets API utilities
+```plaintext
+RealTimeAISalesNegotiationandRecommendationCoach/
 ├── assistant.html             # Front-end dashboard
+├── controller.py              # Main workflow manager
+├── google_sheets_util.py      # Google Sheets API utilities
+├── groq_integration2.py       # Groq inference integration (optional)
+├── mutual_funds_dataset.csv   # Sample dataset for recommendations
+├── post_call_summary.txt      # Post-call notes
+├── recognized_text.txt        # Stores raw transcriptions
 ├── script.js                  # Front-end logic
+├── speech.py                  # Captures and transcribes speech/audio
 ├── style.css                  # Front-end styling
-├── mutual\_funds\_dataset.csv   # Sample dataset for recommendations
-├── recognized\_text.txt        # Stores raw transcriptions
 ├── summaries.txt              # AI-generated summaries
-├── post\_call\_summary.txt      # Post-call notes
-├── vac\_audio.wav              # Sample audio file
-
+└── vac_audio.wav              # Sample audio file
 ````
 
 ---
@@ -51,10 +44,11 @@ It leverages **speech recognition, summarization, and recommendation systems** t
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/chsvhemanth/RealTimeAISalesNegotiationandRecommendationCoach.git
 cd RealTimeAISalesNegotiationandRecommendationCoach
-````
+```
 
 ### 2. Create a virtual environment
 
@@ -145,21 +139,8 @@ Contributions are welcome!
 * Create a feature branch
 * Submit a pull request with your improvements
 
----
-
-## 📜 License
-
-Currently **unlicensed**. Add a `LICENSE` file if you plan to make it open source.
-
----
 
 ## 👨‍💻 Author
 
 Developed by **[chsvhemanth](https://github.com/chsvhemanth)**
 
-```
-
----
-
-Do you also want me to generate a **ready-to-use `requirements.txt`** so users can just `pip install -r requirements.txt` without guessing dependencies?
-```
